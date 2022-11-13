@@ -1,0 +1,5 @@
+[{
+    "command":"/home/op/go/bin/katana -l input -o output",
+    "ext":"txt"
+  }]
+  
