@@ -186,6 +186,9 @@
         "echo 'Installing gauplus'",
         "/bin/su -l op -c 'GO111MODULE=on /usr/local/go/bin/go install -v github.com/bp0lr/gauplus@latest'",
 
+        "echo 'Installing Katana'",
+        "/bin/su -l op -c 'GO111MODULE=on /usr/local/go/bin/go install -v github.com/projectdiscovery/katana/cmd/katana@latest'",
+        
         "echo 'Installing getJS'",
         "/bin/su -l op -c '/usr/local/go/bin/go install github.com/003random/getJS@latest'",
 
